@@ -3,14 +3,14 @@
 /**
  * _isalpha - entry point.
  * @c: a letter to be checked.
- * Return: checks for lower and upper letter and return 0 if both conditions are not satisfied.
+ * Return: checks for letter and return 0 if both conditions are not satisfied.
  */
 
 int _isalpha(int c)
 {
-	if((97 >= c) && (c <= 122))
+	if ((c >= 97) && (c <= 122))
 		return (1);
-	else if((65 >= c) && (90 <= c))
+	else if ((c >= 65) && (c <= 90))
 		return (1);
 	else
 		return (0);
