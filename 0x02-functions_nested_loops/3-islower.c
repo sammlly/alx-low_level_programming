@@ -2,7 +2,7 @@
 
 /**
  * _islower - check the code.
- *@c - is the value representing the ascii.
+ *@c: is the value representing the ascii.
  * Return: returns 1 if c is lowercase and  0 otherwise.
  */
 
